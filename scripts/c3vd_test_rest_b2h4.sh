@@ -1,0 +1,1 @@
+python test_sceneflow.py --model acv_rest_b2h4 --maxdisp 256 --dataset c3vd --datapath ./data/C3VD --testlist ./filenames/c3vd_test.txt --test_batch_size 1 --loadckpt ./logs/c3vd_rest_b2h4/checkpoint_000063.ckpt --save_path ./predictions/c3vd_rest_b2h4 --csv_filename ./predictions/c3vd_rest_b2h4/metrics.csv

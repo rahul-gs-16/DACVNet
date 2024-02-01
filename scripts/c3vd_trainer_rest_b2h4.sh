@@ -1,0 +1,1 @@
+python main.py --model acv_rest_b2h4 --maxdisp 256 --dataset c3vd --datapath ./data/C3VD --trainlist ./filenames/c3vd_train.txt --testlist ./filenames/c3vd_test.txt --batch_size 4 --test_batch_size 4 --logdir ./logs/c3vd_rest_b2h4 --loadckpt ./pretrained_model/sceneflow.ckpt --save_freq 2

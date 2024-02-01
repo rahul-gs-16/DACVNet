@@ -1,0 +1,1 @@
+python ss_own_main.py --model acv_rest_b2h4 --maxdisp 256 --dataset own_ss --datapath ./data/phantom/rectified45mm/rectified --trainlist ./filenames/phantom_train_files.txt --testlist ./filenames/phantom_test_files.txt --batch_size 4 --test_batch_size 1 --logdir ./logs/own_ss_rest_b2h4 --loadckpt ./pretrained_model/sceneflow.ckpt --save_freq 2
